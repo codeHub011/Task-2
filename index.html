@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+<title>form validation</title>
+
+</head>
+<body>
+
+
+
+<main>
+    <!-- Contact Form -->
+    <section>
+        <h2>Contact Form</h2>
+        <form id="contactForm">
+            <div class="content">
+            <label for="name">Enter Your name:</label><br>
+            <input type="text" id="name" placeholder="Your Name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Your Email" required><br><br>
+            <label for="date">Date of Birth:</label><br>
+            <input type="date" id="date" placeholder="dob" required><br><br>
+            <button type="submit" id="sbtn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- To-Do List -->
+    <section class="todo">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Enter a task"><br>
+        <button onclick="addTask()" id="abtn">Add Task</button>
+        <ul id="taskList"></ul>
+    </section>
+</main>
+
+<script src="script.js">
+   
+</script>
+
+</body>
+</html>
